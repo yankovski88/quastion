@@ -1,0 +1,12 @@
+.uk-box {
+
+  @media (min-width: $tablet) {
+      display: flex;
+      margin-bottom: 20px;
+  }
+  @media (min-width: $desktop) {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+}

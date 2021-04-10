@@ -1,0 +1,26 @@
+.text{
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  color: $black;
+  text-align: center;
+}
+
+.footer__text{
+  margin-bottom: 20px;
+  @media(min-width: $tablet)  {
+    margin-bottom: 0;
+  }
+}
+
+//.test{
+//  display: flex;
+//  justify-content: space-between;
+//  width: 100%;
+//}
+//.text-in{
+//  width: 50%;
+//  text-align: center;
+//}

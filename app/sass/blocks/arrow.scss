@@ -1,0 +1,26 @@
+.arrow {
+  display: block;
+
+  background-image: url("../images/dest/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 32px;
+  height: 28px;
+  //border: blueviolet solid 1px;
+
+  @media(min-width: $desktop) {
+    width: 12px;
+    height: 7px;
+  }
+
+}
+
+.uk-box__arrow {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  @media(min-width: $tablet) {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}

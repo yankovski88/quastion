@@ -1,0 +1,25 @@
+.catalog{
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 29px;
+  grid-column-gap: 29px;
+
+
+  @media(min-width: $tablet)  {
+    width: 555px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  @media(min-width: $desktop)  {
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.container__catalog{
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 90px;
+}

@@ -1,0 +1,25 @@
+.kosher-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.footer__kosher-box {
+  margin-bottom: 20px;
+  @media(min-width: $tablet)  {
+    margin-bottom: 0;
+  }
+  @media(min-width: $desktop)  {
+    margin-right: 161px;
+  }
+}
+.kosher-box__text{
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 30px;
+  color: $black;
+}

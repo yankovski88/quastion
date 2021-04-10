@@ -1,0 +1,49 @@
+.add-answer {
+  display: flex;
+  background: yellow;
+  padding-top: 20px;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.add-answer__title::placeholder { // no
+  //opacity: 1;
+  color: #252525;
+}
+
+.add-answer__form {
+  width: 100%;
+  background: black;
+  padding-right: 10px;
+}
+
+.add-answer__title {
+  width: 100%;
+  background: red;
+  padding-bottom: 20px;
+  //padding-right: 100px;
+}
+
+.add-answer__text{
+  padding-bottom: 10px;
+}
+
+.add-answer__title-textarea {
+  width: 100%;
+  height: 50px;
+  background: red;
+  box-sizing: border-box;
+}
+
+.add-review__text-textarea {
+  width: 100%;
+  height: 150px;
+  box-sizing: border-box; // убирает выезд за блок
+}
+
+.block-answer__btn {
+  background: darkred;
+  width: 100px;
+  height: 30px;
+}
+

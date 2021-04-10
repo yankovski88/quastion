@@ -1,0 +1,20 @@
+.logo-box{
+  //display: flex;
+  //flex-direction: row;
+  //width: 500px;
+  //background: yellow;
+  //border: black solid 1px;
+}
+
+
+@media (min-width: $tablet) {
+  .logo-box{
+    display: flex;
+    //flex-direction: row;
+    //width: 500px;
+    //background: yellow;
+    //border: black solid 1px;
+    justify-content: center;
+    align-items: center;
+  }
+}
